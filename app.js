@@ -51,6 +51,7 @@ const delTodos = (tds) => {
             newTodo.push(x)
     })
     console.log(newTodo)
+    allTodos = newTodo
     localStorage.setItem('todos', JSON.stringify(newTodo))
 }
 
